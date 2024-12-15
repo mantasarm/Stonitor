@@ -1,0 +1,9 @@
+[package]
+name = "stock_visual"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.29.1"
+egui_plot = "0.29.0"
+yahoo_finance_api = {"version" = "2.4.0", features = ["blocking"]}
